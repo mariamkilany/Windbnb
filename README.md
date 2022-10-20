@@ -46,4 +46,4 @@ This is a frontend challange from devChallenge
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/3JFYedSOZqAxYuOCNmYD) was to build an application to complete the given user stories.
 
 ## Contact
-- GitHub [@your-username](https://{github.com/mariamkilany})
+- GitHub [@mariamkilany](https://{github.com/mariamkilany})
