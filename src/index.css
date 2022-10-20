@@ -1,0 +1,168 @@
+html,body,main{
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+main{
+  /* padding: 20px; */
+  padding: 0 !important;
+}
+header{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.searchContainer{
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  box-shadow: 0px 1px 6px rgb(0 0 0 / 10%);
+  border-radius: 16px;
+}
+.searchContainer>div{
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-right:1px solid #F2F2F2;
+}
+.search-col{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+.searchIcon{
+  width: 17.05px;
+  height: 17.05px;
+  fill: #eb5757;
+}
+.searchIcon-con{
+  border-right: none !important;
+}
+.under-header{
+  padding: 20px;
+  padding-top: 35px;
+  display:flex;
+  align-items: center;
+}
+.under-header div{
+  width: 70%;
+}
+.stay-num{
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  width: 30% !important;
+}
+.stayphoto{
+  width: 100%;
+  height: 269px;
+  border-radius: 24px;
+}
+.items-con{
+  padding: 30px;
+}
+.items-con section{
+  padding: 10px;
+}
+.title{
+  font-size: 16px;
+  font-weight: 600;
+}
+.info .small{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  padding: 5px;
+}
+.star{
+  fill: #EB5757;
+  width: 15.76px;
+  height: 15.76px;
+}
+.super{
+  border: solid 0.5px;
+  border-radius: 12px;
+  padding: 2px;
+  font-size: 12px;
+  color: #4F4F4F;
+}
+.type,.guest{
+  font-size: 14px;
+  color: #BDBDBD;
+  font-weight: 700;
+  /*border: solid black 0.5px;
+  */
+  border-radius: 7px;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+nav{
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+  top: 0;
+  padding: 50px;
+  text-align: center;
+  position: fixed;
+  height: fit-content;
+}
+nav .input-con{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2px lightgrey;
+  border-radius: 10px;
+}
+.smallhead{
+  position: absolute;
+  top: 1px;
+  left: 12px;
+  font-size: 8px;
+  color: black;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+nav ul li{
+  padding: 10px;
+}
+.note {
+  color: #8080805c;
+  font-weight: 500;
+}
+.bold {
+  font-weight: 600;
+}
+nav button{
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 14px;
+  padding: 6px;
+  font-size: 20px;
+}
+.nav-con{
+  position: absolute;
+  height: 100%;
+  background-color: #00000057;
+  padding: 0;
+  top: 0;
+  display: none;
+}
+.btns .btn{
+  border: solid 0.5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.list-con li{
+  cursor: pointer;
+}
