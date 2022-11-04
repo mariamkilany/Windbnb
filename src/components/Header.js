@@ -9,7 +9,7 @@ function Header() {
         <div className='logoContainer col-sm-6'>
             <img src="./images/logo.png" alt="logo" />
         </div>
-        <div className='col-sm-6 search-col' onClick={()=>setShowNav(!showNav)}>
+        <div className=`col-sm-6 search-col ${showNav?'noscroll':''}`  onClick={()=>setShowNav(!showNav)}>
             <div className='searchContainer'>
             <div className='type'>Add location</div>
             <div className='guest'>Add guests</div>
