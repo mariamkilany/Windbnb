@@ -1,6 +1,9 @@
 #root{
   height: 100%;
 }
+.noscroll{
+	overflow: hidden;
+}
 html,body,main{
   height: 100%;
   position: relative;
